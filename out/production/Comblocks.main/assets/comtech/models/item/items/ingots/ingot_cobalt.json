@@ -1,0 +1,6 @@
+{
+  "parent":"comtech:item/base/CTBasicItem_Standard",
+  "textures": {
+    "layer0":"comtech:items/ingots/ingot_cobalt"
+  }
+}

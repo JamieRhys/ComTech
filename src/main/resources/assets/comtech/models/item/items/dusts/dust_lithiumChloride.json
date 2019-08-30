@@ -1,0 +1,6 @@
+{
+  "parent":"comtech:item/base/CTBasicItem_Standard",
+  "textures": {
+    "layer0":"comtech:items/dusts/dust_lithiumChloride"
+  }
+}

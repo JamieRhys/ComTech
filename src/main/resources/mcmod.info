@@ -1,0 +1,13 @@
+[{
+    "modid": "comtech",
+    "name": "Comtech",
+    "description": "Create new and exciting things with science!",
+    "version": "0.0.1",
+    "mcversion: "1.12.2",
+    "logoFile": "assets/comtech/logo/comtech_mod.png",
+    "url": "",
+    "updateJSON": "",
+    "authorList": ["JamieRhys"],
+    "credits": "With thanks to Bloxicon, Joa_1234 and others."
+    "dependencies": "Forge"
+}
