@@ -6,13 +6,20 @@ buildscript {
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
     }
+
+    task signJar(type: signJar, dependsOn: reobfJar) {
+        inputFile = jar.archivePath
+        outputFile = jar.archivePath
+    }
+
+    build.dependsOn signJar
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
 
 version = "0.0.1"
-group = "com.jamierhys.comblocks" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = "jamierhys.comblocks" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "comblocks"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.

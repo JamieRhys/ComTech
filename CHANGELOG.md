@@ -17,4 +17,4 @@ This mod adheres to [Schemantic Versioning](https://simver.org)
 | Removed                                                      |
 |--------------------------------------------------------------|
 
-[unreleased]:https://https://github.com/JamieRhys/Comtech
+[unreleased]:https://github.com/JamieRhys/Comtech
