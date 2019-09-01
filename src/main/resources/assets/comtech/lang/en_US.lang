@@ -1,6 +1,20 @@
+# Tabs
+itemGroup.comtech=ComTech
+
 # Items
 # -- Dust
 item.comtech.dust_alkaline.name=Alkaline Dust
+item.comtech.dust_coal.name=Coal Dust
+item.comtech.dust_cobalt.name=Cobalt Dust
+item.comtech.dust_cobaltite.name=Cobaltite Dust
+item.comtech.dust_copper.name=Copper Dust
+item.comtech.dust_lithiumchloride.name=Lithium Chloride Dust
+item.comtech.dust_potassiumchloride.name=Potassium Chloride Dust
+item.comtech.dust_rareearth.name=Rare Earth Dust
+item.comtech.dust_salt.name=Salt Dust
+item.comtech.dust_sedimentsand.name=Sediment Sand
+item.comtech.dust_silidioxide.name=Silicon Dioxide Dust
+item.comtech.dust_stone.name=Stone Dust
 
 # -- Ingot
 item.comtech.ingot_cobalt.name=Cobalt Ingot

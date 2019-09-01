@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "comtech:items/dust_sedimentSand"
+    "layer0": "comtech:items/dust_sedimentsand"
   }
 }

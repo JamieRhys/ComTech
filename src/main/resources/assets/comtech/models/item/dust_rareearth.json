@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "comtech:items/dust_potassiumChloride"
+    "layer0": "comtech:items/dust_rareearth"
   }
 }
