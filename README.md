@@ -1,9 +1,9 @@
 # Comtech
 
 ### Table of Contents
-1. [Introduction](###Introduction)
-2. [Recipes](###Recipes)
-3. [Development](###Development)
+1. [Introduction](#Introduction)
+2. [Recipes](#Recipes)
+3. [Development](#Development)
 
 ##
 
