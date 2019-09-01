@@ -1,7 +1,7 @@
 package jamierhys.comtech.common.items;
 
 import jamierhys.comtech.common.items.dusts.*;
-import jamierhys.comtech.common.items.ingots.IngotCobalt;
+import jamierhys.comtech.common.items.ingots.*;
 import jamierhys.comtech.main.ComTech;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
@@ -24,6 +24,10 @@ public class ModItems {
             new DustStone(),
 
             // Ingots
-            new IngotCobalt()
+            new IngotCobalt(),
+            new IngotCopper(),
+            new IngotIronCarbide(),
+            new IngotLithium(),
+            new IngotSteel()
     };
 }

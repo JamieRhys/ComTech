@@ -7,7 +7,8 @@ This mod adheres to [Schemantic Versioning](https://simver.org)
 
 | Added                                                        
 |--------------------------------------------------------------
-| Added items.
+| Added dust items
+| Added ingot items
 
 | Changed                                                      
 |--------------------------------------------------------------

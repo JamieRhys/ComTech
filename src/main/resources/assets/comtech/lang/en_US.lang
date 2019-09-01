@@ -18,3 +18,7 @@ item.comtech.dust_stone.name=Stone Dust
 
 # -- Ingot
 item.comtech.ingot_cobalt.name=Cobalt Ingot
+item.comtech.ingot_copper.name=Copper Ingot
+item.comtech.ingot_ironcarbide.name=Iron Carbide Ingot
+item.comtech.ingot_lithium.name=Lithium Ingot
+item.comtech.ingot_steel.name=Steel Ingot
