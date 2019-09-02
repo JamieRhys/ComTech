@@ -3,6 +3,8 @@ package jamierhys.comtech.common.items;
 import jamierhys.comtech.common.items.dusts.*;
 import jamierhys.comtech.common.items.ingots.*;
 import jamierhys.comtech.common.items.rocks.*;
+import jamierhys.comtech.common.items.tools.ToolObsidianCutter;
+import jamierhys.comtech.common.items.usables.*;
 import jamierhys.comtech.main.ComTech;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
@@ -44,6 +46,18 @@ public class ModItems {
         itemMap.put("rock_monazite", new RockMonazite());
         itemMap.put("rock_neodymium", new RockNeodymium());
         itemMap.put("rock_samarskite", new RockSamarskite());
+
+        // Tools
+        itemMap.put("tool_obsidiancutter", new ToolObsidianCutter());
+
+        // Usables
+        itemMap.put("usable_alkalinebattery", new UsableAlkalineBattery());
+        itemMap.put("usable_alnicomagnet", new UsableAlNiCoMagnet());
+        itemMap.put("usable_bunsenburner", new UsableBunsenBurner());
+        itemMap.put("usable_emptytt", new UsableEmptyTT());
+        itemMap.put("usable_ferritemagnet", new UsableFerriteMagnet());
+        itemMap.put("usable_neodymiummagnet", new UsableNeodymiumMagnet());
+        itemMap.put("usable_samariumcobaltmagnet", new UsableSamariumCobaltMagnet());
 
         return itemMap;
     }
