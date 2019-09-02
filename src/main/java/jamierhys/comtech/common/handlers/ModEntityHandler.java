@@ -19,7 +19,7 @@ public class ModEntityHandler {
 
         @SubscribeEvent
         public static void registerItems(final RegistryEvent.Register<Item> event) {
-            for(final Item item : ModItems.ITEMS) {
+            for(Item item : ModItems.ItemMap.values()) {
                 event.getRegistry().register(item);
             }
         }
@@ -29,7 +29,7 @@ public class ModEntityHandler {
     public static class ModelRegistrationHandler {
         @SubscribeEvent
         public static void registerModels(ModelRegistryEvent event) {
-            for(Item item : ModItems.ITEMS) {
+            for(Item item : ModItems.ItemMap.values()) {
                 registerModel(item, 0);
             }
         }

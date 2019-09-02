@@ -20,4 +20,13 @@ item.comtech.dust_stone.name=Stone Dust
 item.comtech.ingot_cobalt.name=Cobalt Ingot
 item.comtech.ingot_copper.name=Copper Ingot
 item.comtech.ingot_ironcarbide.name=Iron Carbide Ingot
+item.comtech.ingot_lithium.name=Lithium Ingot
 item.comtech.ingot_steel.name=Steel Ingot
+
+# -- Rock
+item.comtech.rock_coltan.name=Coltan Rock
+item.comtech.rock_gadolinite.name=Gadolinite Rock
+item.comtech.rock_lodestone.name=Lodestone Rock
+item.comtech.rock_monazite.name=Monazite Rock
+item.comtech.rock_neodymium.name=Neodymium Rock
+item.comtech.rock_samarskite.name=Samarskite Rock

@@ -8,6 +8,6 @@ import net.minecraft.item.ItemStack;
 public class CreativeTab {
     public static final CreativeTabs CT_TAB = new CreativeTabs(ComTech.Reference.ModInfo.ModID) {
         @Override
-        public ItemStack getTabIconItem() { return new ItemStack(ModItems.ITEMS[0]); }
+        public ItemStack getTabIconItem() { return new ItemStack(ModItems.ItemMap.get("dust_alkaline")); }
     };
 }

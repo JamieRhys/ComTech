@@ -2,32 +2,49 @@ package jamierhys.comtech.common.items;
 
 import jamierhys.comtech.common.items.dusts.*;
 import jamierhys.comtech.common.items.ingots.*;
+import jamierhys.comtech.common.items.rocks.*;
 import jamierhys.comtech.main.ComTech;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 
+import java.util.HashMap;
+
 @ObjectHolder(ComTech.Reference.ModInfo.ModID)
 public class ModItems {
-    public static Item[] ITEMS = {
-            // Dusts
-            new DustAlkaline(),
-            new DustCoal(),
-            new DustCobalt(),
-            new DustCobaltite(),
-            new DustCopper(),
-            new DustLithiumChloride(),
-            new DustPotassiumChloride(),
-            new DustRareEarth(),
-            new DustSalt(),
-            new DustSedimentSand(),
-            new DustSiliDioxide(),
-            new DustStone(),
+    public static HashMap<String, Item> ItemMap = createMap();
 
-            // Ingots
-            new IngotCobalt(),
-            new IngotCopper(),
-            new IngotIronCarbide(),
-            new IngotLithium(),
-            new IngotSteel()
-    };
+    public static final HashMap<String, Item> createMap() {
+        HashMap<String, Item> itemMap = new HashMap<>();
+
+        // Dusts
+        itemMap.put("dust_alkaline", new DustAlkaline());
+        itemMap.put("dust_coal", new DustCoal());
+        itemMap.put("dust_cobalt", new DustCobalt());
+        itemMap.put("dust_cobaltite", new DustCobaltite());
+        itemMap.put("dust_copper", new DustCopper());
+        itemMap.put("dust_lithiumChloride", new DustLithiumChloride());
+        itemMap.put("dust_potassiumChloride", new DustPotassiumChloride());
+        itemMap.put("dust_rareEarth", new DustRareEarth());
+        itemMap.put("dust_salt", new DustSalt());
+        itemMap.put("dust_sedimentSand", new DustSedimentSand());
+        itemMap.put("dust_siliDioxide", new DustSiliDioxide());
+        itemMap.put("dust_stone", new DustStone());
+
+        // Ingots
+        itemMap.put("ingot_cobalt", new IngotCobalt());
+        itemMap.put("ingot_copper", new IngotCopper());
+        itemMap.put("ingot_ironCarbide", new IngotIronCarbide());
+        itemMap.put("ingot_lithium", new IngotLithium());
+        itemMap.put("ingot_steel", new IngotSteel());
+
+        // Rocks
+        itemMap.put("rock_coltan", new RockColtan());
+        itemMap.put("rock_gadolinite", new RockGadolinite());
+        itemMap.put("rock_lodestone", new RockLodestone());
+        itemMap.put("rock_monazite", new RockMonazite());
+        itemMap.put("rock_neodymium", new RockNeodymium());
+        itemMap.put("rock_samarskite", new RockSamarskite());
+
+        return itemMap;
+    }
 }
