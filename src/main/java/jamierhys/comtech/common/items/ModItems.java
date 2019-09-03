@@ -5,17 +5,15 @@ import jamierhys.comtech.common.items.ingots.*;
 import jamierhys.comtech.common.items.rocks.*;
 import jamierhys.comtech.common.items.tools.ToolObsidianCutter;
 import jamierhys.comtech.common.items.usables.*;
-import jamierhys.comtech.main.ComTech;
 import net.minecraft.item.Item;
-import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 
 import java.util.HashMap;
 
-@ObjectHolder(ComTech.Reference.ModInfo.ModID)
+//@ObjectHolder(ComTech.Reference.ModInfo.ModID)
 public class ModItems {
     public static HashMap<String, Item> ItemMap = createMap();
 
-    public static final HashMap<String, Item> createMap() {
+    private static final HashMap<String, Item> createMap() {
         HashMap<String, Item> itemMap = new HashMap<>();
 
         // Dusts

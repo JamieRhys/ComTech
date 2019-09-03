@@ -1,7 +1,9 @@
 package jamierhys.comtech.common.handlers;
 
+import jamierhys.comtech.common.blocks.ModBlocks;
 import jamierhys.comtech.common.items.ModItems;
 import jamierhys.comtech.main.ComTech;
+import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -18,8 +20,19 @@ public class ModEntityHandler {
     public static class RegistrationHandler {
 
         @SubscribeEvent
+        public static void registerBlocks(final RegistryEvent.Register<Block> event) {
+            for(Block block : ModBlocks.BlockMap.values()) {
+                event.getRegistry().register(block);
+            }
+        }
+
+        @SubscribeEvent
         public static void registerItems(final RegistryEvent.Register<Item> event) {
             for(Item item : ModItems.ItemMap.values()) {
+                event.getRegistry().register(item);
+            }
+
+            for(Item item : ModBlocks.ItemBlockMap.values()) {
                 event.getRegistry().register(item);
             }
         }

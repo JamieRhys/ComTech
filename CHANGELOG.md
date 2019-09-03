@@ -25,4 +25,4 @@ This mod adheres to [Schemantic Versioning](https://simver.org)
 |--------------------------------------------------------------
 
 [unreleased]:https://github.com/JamieRhys/Comtech
-[0.0.1]:
+[0.0.1]:https://github.com/JamieRhys/Comtech/tree/0.0.1

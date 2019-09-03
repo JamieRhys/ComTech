@@ -12,7 +12,8 @@ import org.apache.logging.log4j.Logger;
         modid = ComTech.Reference.ModInfo.ModID,
         name = ComTech.Reference.ModInfo.ModName,
         version = ComTech.Reference.ModInfo.ModVersion,
-        certificateFingerprint = ComTech.FINGERPRINT
+        certificateFingerprint = ComTech.FINGERPRINT,
+        acceptedMinecraftVersions = ComTech.Reference.ModInfo.ModVersion
 )
 public class ComTech {
     public static final String FINGERPRINT      = "b0d4c6795a6826b7838d6114dcdf0be6de2729be";
@@ -53,7 +54,7 @@ public class ComTech {
         public static final class ModInfo {
             public static final String              ModID                   = "comtech";
             public static final String              ModName                 = "ComTech";
-            public static final String              ModVersion              = "0.0.1";
+            public static final String              ModVersion              = "0.0.2";
             public static final String              Deps                    = "required-before:Forge@[14.23.5.2768,)";
             public static final String              McVersion               = "[1.12.2,)";
         }

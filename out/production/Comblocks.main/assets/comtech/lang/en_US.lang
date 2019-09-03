@@ -42,3 +42,7 @@ item.comtech.usable_emptytt.name=Empty Test Tube
 item.comtech.usable_ferritemagnet.name=Ferrite Magnet
 item.comtech.usable_neodymiummagnet.name=Neodymium Magnet
 item.comtech.usable_samariumcobaltmagnet.name=Samarium Cobalt Magnet
+
+# Blocks
+# -- Ores
+tile.comtech.ore_aluminium.name=Aluminium Ore
