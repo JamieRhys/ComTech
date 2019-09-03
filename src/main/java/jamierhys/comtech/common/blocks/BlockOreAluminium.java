@@ -18,4 +18,6 @@ public class BlockOreAluminium extends Block {
         this.setUnlocalizedName(ComTech.Reference.Resource.Prefix + "ore_aluminium");
         this.setRegistryName(ComTech.Reference.ModInfo.ModID, "ore_aluminium");
     }
+
+    public static final String getItemType() { return "ore"; }
 }

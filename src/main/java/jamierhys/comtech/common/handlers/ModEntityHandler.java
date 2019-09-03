@@ -23,6 +23,7 @@ public class ModEntityHandler {
         public static void registerBlocks(final RegistryEvent.Register<Block> event) {
             for(Block block : ModBlocks.BlockMap.values()) {
                 event.getRegistry().register(block);
+
             }
         }
 
@@ -45,13 +46,24 @@ public class ModEntityHandler {
             for(Item item : ModItems.ItemMap.values()) {
                 registerModel(item, 0);
             }
+
+            for(Item item : ModBlocks.ItemBlockMap.values()) {
+                registerModel(item, 0);
+            }
         }
 
         public static void registerModel(Item item, int meta) {
+            int iend = item.getRegistryName().toString().indexOf("_");
+            String finalString = iend != -1 ?
+                    item.getRegistryName().toString().substring(0, 8) +
+                            item.getRegistryName().toString().substring(8, iend) + "s/"  +
+                            item.getRegistryName().toString().substring(8) :
+                    "";
+
             ModelLoader.setCustomModelResourceLocation(
                     item,
                     meta,
-                    new ModelResourceLocation(item.getRegistryName(), "inventory")
+                    new ModelResourceLocation(finalString, "inventory")
             );
         }
     }
