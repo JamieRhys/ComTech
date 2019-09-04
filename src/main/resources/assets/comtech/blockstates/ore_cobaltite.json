@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "comtech:ore_aluminium"
+    "model": "comtech:ore_cobaltite"
   },
   "variants": {
     "normal": [{}],

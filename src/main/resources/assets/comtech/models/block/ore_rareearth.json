@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "comtech:blocks/ores/ore_aluminium"
+    "all": "comtech:blocks/ores/ore_rareearth"
   }
 }

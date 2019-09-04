@@ -53,17 +53,10 @@ public class ModEntityHandler {
         }
 
         public static void registerModel(Item item, int meta) {
-            int iend = item.getRegistryName().toString().indexOf("_");
-            String finalString = iend != -1 ?
-                    item.getRegistryName().toString().substring(0, 8) +
-                            item.getRegistryName().toString().substring(8, iend) + "s/"  +
-                            item.getRegistryName().toString().substring(8) :
-                    "";
-
             ModelLoader.setCustomModelResourceLocation(
                     item,
                     meta,
-                    new ModelResourceLocation(finalString, "inventory")
+                    new ModelResourceLocation(item.getRegistryName(), "inventory")
             );
         }
     }

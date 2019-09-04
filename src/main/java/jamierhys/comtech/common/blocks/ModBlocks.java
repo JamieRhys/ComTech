@@ -3,10 +3,10 @@ package jamierhys.comtech.common.blocks;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraftforge.oredict.OreDictionary;
 
 import java.util.HashMap;
 
-//  @ObjectHolder(ComTech.Reference.ModInfo.ModID)
 public class ModBlocks {
     public static final HashMap<String, Block> BlockMap = createMap();
     public static final HashMap<String, Item> ItemBlockMap = createItemMap();
@@ -16,6 +16,12 @@ public class ModBlocks {
 
         // Ores
         blockMap.put("ore_aluminium", new BlockOreAluminium());
+        blockMap.put("ore_cobaltite", new BlockOreCobaltite());
+        blockMap.put("ore_copper", new BlockOreCopper());
+        blockMap.put("ore_lanthanide", new BlockOreLanthanide());
+        blockMap.put("ore_magnetite", new BlockOreMagnetite());
+        blockMap.put("ore_rareearth", new BlockOreRareEarth());
+        blockMap.put("ore_sedimentsand", new BlockOreSedimentSand());
 
         return blockMap;
     }
@@ -23,11 +29,7 @@ public class ModBlocks {
     private static final HashMap<String, Item> createItemMap() {
         HashMap<String, Item> itemMap = new HashMap<>();
 
-        // Ores
-        itemMap.put("ore_aluminium", new ItemBlock(BlockMap.get("ore_aluminium")).setRegistryName("ore_aluminium"));
-
         for(Block block : BlockMap.values()) {
-            //itemMap.put(block.getRegistryName(), new ItemBlock((Block) block.getValue()).setRegistryName((((Block) block.getValue()).getRegistryName())));
             itemMap.put(
                     block.getRegistryName().toString().substring(8),
                     new ItemBlock(block).setRegistryName(block.getRegistryName().toString().substring(8))
@@ -35,5 +37,9 @@ public class ModBlocks {
         }
 
         return itemMap;
+    }
+
+    public static void registerOreDictionaryEntry(final String name, final Block ore) {
+        OreDictionary.registerOre(name.substring(8), ore);
     }
 }

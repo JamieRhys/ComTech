@@ -5,6 +5,11 @@ This mod adheres to [Schemantic Versioning](https://simver.org)
 
 ## [unreleased]
 
+| Added                                                        
+|--------------------------------------------------------------
+| Added ore blocks
+| Added ability to register to ore dictionary
+
 ## [0.0.1]
 
 | Added                                                        

@@ -46,3 +46,9 @@ item.comtech.usable_samariumcobaltmagnet.name=Samarium Cobalt Magnet
 # Blocks
 # -- Ores
 tile.comtech.ore_aluminium.name=Aluminium Ore
+tile.comtech.ore_cobaltite.name=Cobaltite Ore
+tile.comtech.ore_copper.name=Copper Ore
+tile.comtech.ore_lanthanide.name=Lanthanide Ore
+tile.comtech.ore_magnetite.name=Magnetite Ore
+tile.comtech.ore_rareearth.name=Rare Earth Ore
+tile.comtech.ore_sedimentsand.name=Sediment Sand
