@@ -22,6 +22,7 @@ This mod adheres to [Schemantic Versioning](https://simver.org)
 
 | Changed                                                      
 |--------------------------------------------------------------
+| Naming conventions changed to allow ability to register to ore dictionary.
 
 | Fixed                                                       
 |--------------------------------------------------------------

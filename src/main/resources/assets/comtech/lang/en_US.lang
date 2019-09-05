@@ -3,52 +3,52 @@ itemGroup.comtech=ComTech
 
 # Items
 # -- Dust
-item.comtech.dust_alkaline.name=Alkaline Dust
-item.comtech.dust_coal.name=Coal Dust
-item.comtech.dust_cobalt.name=Cobalt Dust
-item.comtech.dust_cobaltite.name=Cobaltite Dust
-item.comtech.dust_copper.name=Copper Dust
-item.comtech.dust_lithiumchloride.name=Lithium Chloride Dust
-item.comtech.dust_potassiumchloride.name=Potassium Chloride Dust
-item.comtech.dust_rareearth.name=Rare Earth Dust
-item.comtech.dust_salt.name=Salt Dust
-item.comtech.dust_sedimentsand.name=Sediment Sand
-item.comtech.dust_silidioxide.name=Silicon Dioxide Dust
-item.comtech.dust_stone.name=Stone Dust
+item.comtech.dustAlkaline.name=Alkaline Dust
+item.comtech.dustCoal.name=Coal Dust
+item.comtech.dustCobalt.name=Cobalt Dust
+item.comtech.dustCobaltite.name=Cobaltite Dust
+item.comtech.dustCopper.name=Copper Dust
+item.comtech.dustLithiumChloride.name=Lithium Chloride Dust
+item.comtech.dustPotassiumChloride.name=Potassium Chloride Dust
+item.comtech.dustRareEarth.name=Rare Earth Dust
+item.comtech.dustSalt.name=Salt Dust
+item.comtech.dustSedimentSand.name=Sediment Sand
+item.comtech.dustSiliDioxide.name=Silicon Dioxide Dust
+item.comtech.dustStone.name=Stone Dust
 
 # -- Ingot
-item.comtech.ingot_cobalt.name=Cobalt Ingot
-item.comtech.ingot_copper.name=Copper Ingot
-item.comtech.ingot_ironcarbide.name=Iron Carbide Ingot
-item.comtech.ingot_lithium.name=Lithium Ingot
-item.comtech.ingot_steel.name=Steel Ingot
+item.comtech.ingotCobalt.name=Cobalt Ingot
+item.comtech.ingotCopper.name=Copper Ingot
+item.comtech.ingotIronCarbide.name=Iron Carbide Ingot
+item.comtech.ingotLithium.name=Lithium Ingot
+item.comtech.ingotSteel.name=Steel Ingot
 
 # -- Rock
-item.comtech.rock_coltan.name=Coltan Rock
-item.comtech.rock_gadolinite.name=Gadolinite Rock
-item.comtech.rock_lodestone.name=Lodestone Rock
-item.comtech.rock_monazite.name=Monazite Rock
-item.comtech.rock_neodymium.name=Neodymium Rock
-item.comtech.rock_samarskite.name=Samarskite Rock
+item.comtech.rockColtan.name=Coltan Rock
+item.comtech.rockGadolinite.name=Gadolinite Rock
+item.comtech.rockLodestone.name=Lodestone Rock
+item.comtech.rockMonazite.name=Monazite Rock
+item.comtech.rockNeodymium.name=Neodymium Rock
+item.comtech.rockSamarskite.name=Samarskite Rock
 
 # -- Tools
-item.comtech.tool_obsidiancutter.name=Obsidian Cutter
+item.comtech.toolObsidianCutter.name=Obsidian Cutter
 
 # -- Usables
-item.comtech.usable_alkalinebattery.name=Alkaline Battery
-item.comtech.usable_alnicomagnet.name=Aluminium Nickel Cobalt Magnet
-item.comtech.usable_bunsenburner.name=Bunsen Burner
-item.comtech.usable_emptytt.name=Empty Test Tube
-item.comtech.usable_ferritemagnet.name=Ferrite Magnet
-item.comtech.usable_neodymiummagnet.name=Neodymium Magnet
-item.comtech.usable_samariumcobaltmagnet.name=Samarium Cobalt Magnet
+item.comtech.usableAlkalineBattery.name=Alkaline Battery
+item.comtech.usableAlnicoMagnet.name=Aluminium Nickel Cobalt Magnet
+item.comtech.usableBunsenBurner.name=Bunsen Burner
+item.comtech.usableEmptyTT.name=Empty Test Tube
+item.comtech.usableFerriteMagnet.name=Ferrite Magnet
+item.comtech.usableNeodymiumMagnet.name=Neodymium Magnet
+item.comtech.usableSamariumCobaltMagnet.name=Samarium Cobalt Magnet
 
 # Blocks
 # -- Ores
-tile.comtech.ore_aluminium.name=Aluminium Ore
-tile.comtech.ore_cobaltite.name=Cobaltite Ore
-tile.comtech.ore_copper.name=Copper Ore
-tile.comtech.ore_lanthanide.name=Lanthanide Ore
-tile.comtech.ore_magnetite.name=Magnetite Ore
-tile.comtech.ore_rareearth.name=Rare Earth Ore
-tile.comtech.ore_sedimentsand.name=Sediment Sand
+tile.comtech.oreAluminium.name=Aluminium Ore
+tile.comtech.oreCobaltite.name=Cobaltite Ore
+tile.comtech.oreCopper.name=Copper Ore
+tile.comtech.oreLanthanide.name=Lanthanide Ore
+tile.comtech.oreMagnetite.name=Magnetite Ore
+tile.comtech.oreRareEarth.name=Rare Earth Ore
+tile.comtech.oreSedimentSand.name=Sediment Sand

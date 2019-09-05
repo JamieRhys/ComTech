@@ -1,16 +1,15 @@
 package jamierhys.comtech.common.items.dusts;
 
-import jamierhys.comtech.client.tabs.CreativeTab;
-import jamierhys.comtech.main.ComTech;
-import net.minecraft.item.Item;
+import jamierhys.comtech.common.items.ItemBase;
 
-public class DustCoal extends Item {
+public class DustCoal extends ItemBase {
     public DustCoal() {
         super();
 
-        this.setCreativeTab(CreativeTab.CT_TAB);
         this.setMaxStackSize(64);
-        this.setUnlocalizedName(ComTech.Reference.Resource.Prefix + "dust_coal");
-        this.setRegistryName(ComTech.Reference.ModInfo.ModID, "dust_coal");
+        this.registerItem("dustCoal");
     }
+
+    @Override
+    public boolean registerInOreDict() { return true; }
 }

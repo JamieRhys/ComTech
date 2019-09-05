@@ -1,6 +1,5 @@
 package jamierhys.comtech.main;
 
-import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLFingerprintViolationEvent;
@@ -13,7 +12,8 @@ import org.apache.logging.log4j.Logger;
         name = ComTech.Reference.ModInfo.ModName,
         version = ComTech.Reference.ModInfo.ModVersion,
         certificateFingerprint = ComTech.FINGERPRINT,
-        acceptedMinecraftVersions = ComTech.Reference.ModInfo.ModVersion
+        acceptedMinecraftVersions = ComTech.Reference.ModInfo.ModVersion,
+        canBeDeactivated = true
 )
 public class ComTech {
     public static final String FINGERPRINT      = "b0d4c6795a6826b7838d6114dcdf0be6de2729be";
@@ -27,7 +27,7 @@ public class ComTech {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        logger.info("Intialising ComTech");
     }
 
     @EventHandler

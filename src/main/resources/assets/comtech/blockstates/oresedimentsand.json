@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "comtech:ore_sedimentsand"
+    "model": "comtech:oresedimentsand"
   },
   "variants": {
     "normal": [{}],

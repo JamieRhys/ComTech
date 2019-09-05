@@ -11,7 +11,7 @@ public class ToolObsidianCutter extends ItemPickaxe {
 
         this.setCreativeTab(CreativeTab.CT_TAB);
         this.setMaxStackSize(1);
-        this.setUnlocalizedName(ComTech.Reference.Resource.Prefix + "tool_obsidiancutter");
-        this.setRegistryName(ComTech.Reference.ModInfo.ModID, "tool_obsidiancutter");
+        this.setUnlocalizedName(ComTech.Reference.Resource.Prefix + "toolObsidianCutter");
+        this.setRegistryName(ComTech.Reference.ModInfo.ModID, "toolObsidianCutter");
     }
 }
